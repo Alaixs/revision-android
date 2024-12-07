@@ -2402,8 +2402,25 @@
         "type": "single"
     },
     {
-        "question": "Complétez la phrase",
-        "options": [],
+        "question": "Complétez la phrase : Pour gérer les conflits pouvant survenir lors de l'insertion dans une base de données, vous pouvez transmettre un paramètre ___, tel que IGNORE, à l'annotation @Insert.",
+        "options": [
+            {
+                "text": "onConflict",
+                "correct": false
+            },
+            {
+                "text": "onConflict",
+                "correct": false
+            },
+            {
+                "text": "onConflict",
+                "correct": true
+            },
+            {
+                "text": "onConflict",
+                "correct": false
+            }
+        ],
         "type": "single"
     },
     {
@@ -3083,8 +3100,25 @@
         "type": "single"
     },
     {
-        "question": "Complétez la phrase",
-        "options": [],
+        "question": "Complétez la phrase : Le thread ___ est chargé d'afficher l'interface utilisateur répondant aux entrées utilisateur.",
+        "options": [
+            {
+                "text": "principal",
+                "correct": false
+            },
+            {
+                "text": "principal",
+                "correct": false
+            },
+            {
+                "text": "principal",
+                "correct": true
+            },
+            {
+                "text": "principal",
+                "correct": false
+            }
+        ],
         "type": "single"
     },
     {
