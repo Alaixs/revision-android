@@ -2,6 +2,7 @@ export function renderQuestion(container, question, onSubmit) {
     container.innerHTML = `
         <div id="quiz-content">
             <h2 class="question-title">${question.question}</h2>
+            ${question.code ? `<pre class="code"><code class="language-kotlin">${question.code}</code></pre>` : ''}
             <form id="quiz-form">
                 ${question.options
                     .map(
@@ -17,6 +18,12 @@ export function renderQuestion(container, question, onSubmit) {
             </form>
         </div>
     `;
+
+    if (question.code) {
+        hljs.highlightAll();
+        console.log('highlighted');
+    }
+
     const labels = document.querySelectorAll('.question');
     labels.forEach((label) => {
         label.addEventListener('click', () => {

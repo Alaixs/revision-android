@@ -617,6 +617,7 @@
     },
     {
         "question": "Le code suivant affichera \"Divisible by 5\" si number est égal à 25.",
+        "code" : "if (number % 10 == 0) {\n  println(\"Divisible by 10\")\n} else if (number == 5) {\n  println(\"Divisible by 5\")\n}",
         "options": [
             {
                 "text": "`true`",
