@@ -201,3 +201,22 @@ button:hover {
     padding: 0.5rem;
     border-radius: 15px;
 }
+
+
+@media (max-width: 500px)
+{
+    footer {
+        display: none;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 415px)
+{
+    button {
+        margin: 10px;
+    }
+}

@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const quizContainer = document.getElementById('quiz-container');
 
     menuContainer.innerHTML = `
-        <div>
+        <div style="text-align: center;">
             <h2>Bienvenue sur le Quiz Android</h2>
             <p>Choisissez une option pour commencer :</p>
             <button id="ordered">Questions dans l'ordre</button>
