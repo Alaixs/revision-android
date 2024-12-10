@@ -11,6 +11,10 @@ export function loadQuiz(container, questions, isRandom) {
     let currentQuestionIndex = 0;
     let score = 0;
 
+    questions.forEach(question => {
+        question.options = shuffleArray(question.options);
+    });
+
     function nextQuestion() {
         if (currentQuestionIndex < questions.length) {
             renderQuestion(
