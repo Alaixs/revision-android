@@ -1296,6 +1296,7 @@
     },
     {
         "question": "Compte tenu de la ligne de code suivante et parmi les commandes proposées, laquelle permettra d'imprimer Blue ? (Conseil : En cas de doute, essayez d'exécuter le code en Kotlin Playground.)",
+        "code": "val colors = listOf(\"Red\", \"Green\", \"Blue\")\n",
         "options": [
             {
                 "text": "`println(colors[2])`",
